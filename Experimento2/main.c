@@ -35,7 +35,7 @@ void Timer0Init(void)
     SysCtlPeripheralEnable(SYSCTL_PERIPH_TIMER0);
     // Configuraciones del Timer
     TimerConfigure(TIMER0_BASE,TIMER_CFG_PERIODIC);
-    TimerLoadSet(TIMER0_BASE, TIMER_A, SysCtlClockGet() -1);
+    TimerLoadSet(TIMER0_BASE, TIMER_A, (SysCtlClockGet()/2) -1);
     IntEnable(INT_TIMER0A);
     TimerIntEnable(TIMER0_BASE,TIMER_TIMA_TIMEOUT);
     IntMasterEnable();

@@ -1,7 +1,7 @@
 ******************************************************************************
                   TI ARM Linker PC v20.2.0                     
 ******************************************************************************
->> Linked Tue May 19 09:04:31 2020
+>> Linked Tue May 19 09:32:45 2020
 
 OUTPUT FILE NAME:   <Experimento2.out>
 ENTRY POINT SYMBOL: "_c_int00_noargs"  address: 0000094d
@@ -169,19 +169,19 @@ address   name
 00000a99  SysCtlDelay                   
 00000919  SysCtlPeripheralEnable        
 0000026d  Timer0Init                    
-000002a7  Timer0IntHandler              
+000002a9  Timer0IntHandler              
 0000082d  TimerConfigure                
 00000a49  TimerEnable                   
 00000a9f  TimerIntClear                 
 00000a83  TimerIntEnable                
 00000a27  TimerLoadSet                  
-000003e7  UART0IntHandler               
+000003e9  UART0IntHandler               
 00000a6f  UARTCharGet                   
 00000a79  UARTCharPut                   
 0000088d  UARTConfigSetExpClk           
 000009ad  UARTDisable                   
 00000a01  UARTEnable                    
-00000327  UARTInit                      
+00000329  UARTInit                      
 00000aa3  UARTIntClear                  
 00000a8b  UARTIntEnable                 
 20000200  __STACK_END                   
@@ -209,7 +209,7 @@ UNDEFED   _system_post_cinit
 00000aab  abort                         
 ffffffff  binit                         
 00000000  g_pfnVectors                  
-00000437  main                          
+00000439  main                          
 20000204  state                         
 
 
@@ -221,10 +221,10 @@ address   name
 00000000  g_pfnVectors                  
 00000200  __STACK_SIZE                  
 0000026d  Timer0Init                    
-000002a7  Timer0IntHandler              
-00000327  UARTInit                      
-000003e7  UART0IntHandler               
-00000437  main                          
+000002a9  Timer0IntHandler              
+00000329  UARTInit                      
+000003e9  UART0IntHandler               
+00000439  main                          
 0000048d  GPIOPadConfigSet              
 000005c1  SysCtlClockGet                
 000006d1  SysCtlClockSet                
